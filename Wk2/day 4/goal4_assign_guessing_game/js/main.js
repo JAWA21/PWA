@@ -30,6 +30,7 @@
 			validate();
 		}else{
 			output.innerHTML = 'Game Over';
+			guessBtn.input.disabled = true; //disable the guess btn
 		}
 	}
 
